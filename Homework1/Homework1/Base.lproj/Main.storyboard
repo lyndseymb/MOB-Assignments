@@ -49,11 +49,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQ3-8o-xwO">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZg-fZ-5cF">
                                 <rect key="frame" x="123" y="235" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buttonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="u2j-Et-v8d"/>
+                                    <action selector="buttonClicked2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5Pv-VQ-ADE"/>
+                                    <action selector="buttonClicked3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tOB-HM-qVp"/>
+                                    <action selector="buttonClicked4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R18-mr-xpu"/>
+                                    <action selector="buttonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="H63-t6-boF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -67,7 +70,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="labelText" destination="8Vd-7i-7LI" id="i06-4g-yU4"/>
+                        <outlet property="ageInput" destination="J5q-sC-B3N" id="UX8-4e-EuG"/>
+                        <outlet property="labelText" destination="8Vd-7i-7LI" id="1k6-mf-yTT"/>
+                        <outlet property="nameInput" destination="NbO-e6-IBn" id="nOS-73-il7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -102,6 +107,9 @@
                                 <state key="normal" title="Add">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addButtonClicked:" destination="PbP-yY-Fcn" eventType="touchUpInside" id="LFg-Ac-del"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -113,6 +121,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="displaySum" destination="rWA-7i-tDi" id="Sdh-Xg-FLm"/>
+                        <outlet property="numberInput" destination="LFt-1l-nua" id="FEA-eZ-L2V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AzK-zY-ekm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -130,11 +142,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qZN-3T-X4g">
-                                <rect key="frame" x="116" y="147" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Should print 'is even' or 'is not even'" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5s-jE-uuh">
                                 <rect key="frame" x="24" y="192" width="280" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -146,11 +153,23 @@
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateButton:" destination="Hpg-wM-wgh" eventType="touchUpInside" id="Yw6-Sx-ro5"/>
+                                </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qZN-3T-X4g">
+                                <rect key="frame" x="116" y="119" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="R8z-LL-d3E"/>
+                    <connections>
+                        <outlet property="displayText" destination="a5s-jE-uuh" id="OqT-l0-ghA"/>
+                        <outlet property="numberInput" destination="qZN-3T-X4g" id="pgS-Z4-YZq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="86r-6T-e6N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
