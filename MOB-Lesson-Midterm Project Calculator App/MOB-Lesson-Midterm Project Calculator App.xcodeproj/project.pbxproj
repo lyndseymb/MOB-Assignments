@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92DFF12C1BF20C72006BF10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFF12B1BF20C72006BF10B /* AppDelegate.swift */; };
+		92DFF12E1BF20C72006BF10B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFF12D1BF20C72006BF10B /* ViewController.swift */; };
+		92DFF1311BF20C72006BF10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DFF12F1BF20C72006BF10B /* Main.storyboard */; };
+		92DFF1331BF20C72006BF10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DFF1321BF20C72006BF10B /* Assets.xcassets */; };
+		92DFF1361BF20C72006BF10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DFF1341BF20C72006BF10B /* LaunchScreen.storyboard */; };
+		92DFF1411BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFF1401BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppTests.swift */; };
+		92DFF14C1BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFF14B1BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DFF13D1BF20C73006BF10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DFF1201BF20C72006BF10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DFF1271BF20C72006BF10B;
+			remoteInfo = "MOB-Lesson-Midterm Project Calculator App";
+		};
+		92DFF1481BF20C73006BF10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DFF1201BF20C72006BF10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DFF1271BF20C72006BF10B;
+			remoteInfo = "MOB-Lesson-Midterm Project Calculator App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92DFF1281BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOB-Lesson-Midterm Project Calculator App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DFF12B1BF20C72006BF10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DFF12D1BF20C72006BF10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92DFF1301BF20C72006BF10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92DFF1321BF20C72006BF10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DFF1351BF20C72006BF10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92DFF1371BF20C72006BF10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DFF13C1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOB-Lesson-Midterm Project Calculator AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DFF1401BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOB_Lesson_Midterm_Project_Calculator_AppTests.swift; sourceTree = "<group>"; };
+		92DFF1421BF20C73006BF10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DFF1471BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOB-Lesson-Midterm Project Calculator AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DFF14B1BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOB_Lesson_Midterm_Project_Calculator_AppUITests.swift; sourceTree = "<group>"; };
+		92DFF14D1BF20C73006BF10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DFF1251BF20C72006BF10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFF1391BF20C73006BF10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFF1441BF20C73006BF10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92DFF11F1BF20C72006BF10B = {
+			isa = PBXGroup;
+			children = (
+				92DFF12A1BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App */,
+				92DFF13F1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppTests */,
+				92DFF14A1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppUITests */,
+				92DFF1291BF20C72006BF10B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92DFF1291BF20C72006BF10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DFF1281BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App.app */,
+				92DFF13C1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppTests.xctest */,
+				92DFF1471BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DFF12A1BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App */ = {
+			isa = PBXGroup;
+			children = (
+				92DFF12B1BF20C72006BF10B /* AppDelegate.swift */,
+				92DFF12D1BF20C72006BF10B /* ViewController.swift */,
+				92DFF12F1BF20C72006BF10B /* Main.storyboard */,
+				92DFF1321BF20C72006BF10B /* Assets.xcassets */,
+				92DFF1341BF20C72006BF10B /* LaunchScreen.storyboard */,
+				92DFF1371BF20C72006BF10B /* Info.plist */,
+			);
+			path = "MOB-Lesson-Midterm Project Calculator App";
+			sourceTree = "<group>";
+		};
+		92DFF13F1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				92DFF1401BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppTests.swift */,
+				92DFF1421BF20C73006BF10B /* Info.plist */,
+			);
+			path = "MOB-Lesson-Midterm Project Calculator AppTests";
+			sourceTree = "<group>";
+		};
+		92DFF14A1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92DFF14B1BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppUITests.swift */,
+				92DFF14D1BF20C73006BF10B /* Info.plist */,
+			);
+			path = "MOB-Lesson-Midterm Project Calculator AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DFF1271BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DFF1501BF20C73006BF10B /* Build configuration list for PBXNativeTarget "MOB-Lesson-Midterm Project Calculator App" */;
+			buildPhases = (
+				92DFF1241BF20C72006BF10B /* Sources */,
+				92DFF1251BF20C72006BF10B /* Frameworks */,
+				92DFF1261BF20C72006BF10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MOB-Lesson-Midterm Project Calculator App";
+			productName = "MOB-Lesson-Midterm Project Calculator App";
+			productReference = 92DFF1281BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DFF13B1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DFF1531BF20C73006BF10B /* Build configuration list for PBXNativeTarget "MOB-Lesson-Midterm Project Calculator AppTests" */;
+			buildPhases = (
+				92DFF1381BF20C73006BF10B /* Sources */,
+				92DFF1391BF20C73006BF10B /* Frameworks */,
+				92DFF13A1BF20C73006BF10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DFF13E1BF20C73006BF10B /* PBXTargetDependency */,
+			);
+			name = "MOB-Lesson-Midterm Project Calculator AppTests";
+			productName = "MOB-Lesson-Midterm Project Calculator AppTests";
+			productReference = 92DFF13C1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92DFF1461BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DFF1561BF20C73006BF10B /* Build configuration list for PBXNativeTarget "MOB-Lesson-Midterm Project Calculator AppUITests" */;
+			buildPhases = (
+				92DFF1431BF20C73006BF10B /* Sources */,
+				92DFF1441BF20C73006BF10B /* Frameworks */,
+				92DFF1451BF20C73006BF10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DFF1491BF20C73006BF10B /* PBXTargetDependency */,
+			);
+			name = "MOB-Lesson-Midterm Project Calculator AppUITests";
+			productName = "MOB-Lesson-Midterm Project Calculator AppUITests";
+			productReference = 92DFF1471BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DFF1201BF20C72006BF10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lyndsey Boucherle";
+				TargetAttributes = {
+					92DFF1271BF20C72006BF10B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					92DFF13B1BF20C73006BF10B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 92DFF1271BF20C72006BF10B;
+					};
+					92DFF1461BF20C73006BF10B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 92DFF1271BF20C72006BF10B;
+					};
+				};
+			};
+			buildConfigurationList = 92DFF1231BF20C72006BF10B /* Build configuration list for PBXProject "MOB-Lesson-Midterm Project Calculator App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DFF11F1BF20C72006BF10B;
+			productRefGroup = 92DFF1291BF20C72006BF10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DFF1271BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App */,
+				92DFF13B1BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppTests */,
+				92DFF1461BF20C73006BF10B /* MOB-Lesson-Midterm Project Calculator AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DFF1261BF20C72006BF10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFF1361BF20C72006BF10B /* LaunchScreen.storyboard in Resources */,
+				92DFF1331BF20C72006BF10B /* Assets.xcassets in Resources */,
+				92DFF1311BF20C72006BF10B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFF13A1BF20C73006BF10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFF1451BF20C73006BF10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DFF1241BF20C72006BF10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFF12E1BF20C72006BF10B /* ViewController.swift in Sources */,
+				92DFF12C1BF20C72006BF10B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFF1381BF20C73006BF10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFF1411BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFF1431BF20C73006BF10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFF14C1BF20C73006BF10B /* MOB_Lesson_Midterm_Project_Calculator_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DFF13E1BF20C73006BF10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DFF1271BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App */;
+			targetProxy = 92DFF13D1BF20C73006BF10B /* PBXContainerItemProxy */;
+		};
+		92DFF1491BF20C73006BF10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DFF1271BF20C72006BF10B /* MOB-Lesson-Midterm Project Calculator App */;
+			targetProxy = 92DFF1481BF20C73006BF10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92DFF12F1BF20C72006BF10B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DFF1301BF20C72006BF10B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92DFF1341BF20C72006BF10B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DFF1351BF20C72006BF10B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DFF14E1BF20C73006BF10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92DFF14F1BF20C73006BF10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DFF1511BF20C73006BF10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MOB-Lesson-Midterm Project Calculator App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boucherle.MOB-Lesson-Midterm-Project-Calculator-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92DFF1521BF20C73006BF10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MOB-Lesson-Midterm Project Calculator App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boucherle.MOB-Lesson-Midterm-Project-Calculator-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92DFF1541BF20C73006BF10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MOB-Lesson-Midterm Project Calculator AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boucherle.MOB-Lesson-Midterm-Project-Calculator-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOB-Lesson-Midterm Project Calculator App.app/MOB-Lesson-Midterm Project Calculator App";
+			};
+			name = Debug;
+		};
+		92DFF1551BF20C73006BF10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MOB-Lesson-Midterm Project Calculator AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boucherle.MOB-Lesson-Midterm-Project-Calculator-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOB-Lesson-Midterm Project Calculator App.app/MOB-Lesson-Midterm Project Calculator App";
+			};
+			name = Release;
+		};
+		92DFF1571BF20C73006BF10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MOB-Lesson-Midterm Project Calculator AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boucherle.MOB-Lesson-Midterm-Project-Calculator-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MOB-Lesson-Midterm Project Calculator App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		92DFF1581BF20C73006BF10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MOB-Lesson-Midterm Project Calculator AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boucherle.MOB-Lesson-Midterm-Project-Calculator-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MOB-Lesson-Midterm Project Calculator App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DFF1231BF20C72006BF10B /* Build configuration list for PBXProject "MOB-Lesson-Midterm Project Calculator App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DFF14E1BF20C73006BF10B /* Debug */,
+				92DFF14F1BF20C73006BF10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DFF1501BF20C73006BF10B /* Build configuration list for PBXNativeTarget "MOB-Lesson-Midterm Project Calculator App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DFF1511BF20C73006BF10B /* Debug */,
+				92DFF1521BF20C73006BF10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92DFF1531BF20C73006BF10B /* Build configuration list for PBXNativeTarget "MOB-Lesson-Midterm Project Calculator AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DFF1541BF20C73006BF10B /* Debug */,
+				92DFF1551BF20C73006BF10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92DFF1561BF20C73006BF10B /* Build configuration list for PBXNativeTarget "MOB-Lesson-Midterm Project Calculator AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DFF1571BF20C73006BF10B /* Debug */,
+				92DFF1581BF20C73006BF10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DFF1201BF20C72006BF10B /* Project object */;
+}
